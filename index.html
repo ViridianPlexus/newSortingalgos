@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title> Sorting visualizer</title>  <!-- title -->
+    <link rel="stylesheet" href="style.css"/> <!-- links to stylizer -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+    <div  class="split left" >
+        <h1>Sorting algorithms</h1>
+        <div> 
+            <ul>           
+                <button class = 'btn_bubblesort'>BubbleSort </button>               
+                <button class = 'btn_Heapsort'>Heapsort</button>
+                <button class = 'btn_Introsort'>Introsort</button>
+                <button class = 'btn_MergeSort'>MergeSort</button>
+                <button class = 'btn_Cubesort'>Cubesort</button>        
+                <br />	
+                <button class = 'btn_TreeSort'>TreeSort</button>
+                <button class = 'btn_BlockSort'>BlockSort</button>
+                <button class = 'btn_Smoothsort'>Smoothsort</button>
+                <button class = 'btn_Timsort'>Timsort</button>
+                <button class = 'btn_PatienceSorting'>PatienceSorting</button>        
+            </ul>
+        </div>
+    <div>
+        <button class = 'btn'>init</button>
+        <button onclick="play()">play</button>
+    </div>
+</div id='graphs'>  
+    <div class="split right" id= 'container'> <!-- container class, where the visualizer is displayed  -->
+    </div>
+    <hr>
+    <script type="module" src = "script.js"></script> <!-- link to script javascript algo -->    
+</body>
+</html>
